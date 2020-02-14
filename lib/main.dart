@@ -7,10 +7,10 @@ class MyApp extends StatelessWidget {
    Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-       appBar: AppBar(title: Text("hello world"),),
+       appBar: AppBar(title: Text("MY FIRST APP "),),
        body: Column(
          children:<Widget>[
-           Text("Hello world")
+           Text("This app is made by the great kislay kunal on 13.02.2020 in a workshop named flutter days")
          ],
        ),
       ),
